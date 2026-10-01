@@ -48,10 +48,56 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/a26c1f2fbf9c5616a9169fda4ecb5dbf207d7eab/chunk-001.nq.gz",
       "repolex:graphFileSize": 1092988
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/a26c1f2fbf9c5616a9169fda4ecb5dbf207d7eab.nq.gz",
+      "repolex:graphFileSize": 1209
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-10-01T08:12:08.607954+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "master"
+  "git:tagName": "master",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/go-cmd/cmd",
+      "repolex:packageName": "github.com/go-cmd/cmd",
+      "git:hexsha": "b47399882e557eb7f50f901ca373691491350929",
+      "git:tagName": "v1.4.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/go-test/deep",
+      "repolex:packageName": "github.com/go-test/deep",
+      "git:hexsha": "9e863ff5cf900f95c7e8a5e8248300939257744b",
+      "git:tagName": "v1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/gofrs/uuid",
+      "repolex:packageName": "github.com/gofrs/uuid"
+    },
+    {
+      "@id": "https://repolex.ai/r/golang/protobuf",
+      "repolex:packageName": "github.com/golang/protobuf",
+      "git:hexsha": "5d5e8c018a13017f9d5b8bf4fad64aaa42a87308",
+      "git:tagName": "v1.5.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/grpc/grpc-go",
+      "repolex:packageName": "google.golang.org/grpc",
+      "git:hexsha": "1055b481ed2204a29d233286b9b50c42b63f8825",
+      "git:tagName": "v1.56.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/kr/pretty",
+      "repolex:packageName": "github.com/kr/pretty",
+      "git:hexsha": "4e0886370c3a67530192c6a238cff68f56c141b0",
+      "git:tagName": "v0.2.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/googleapis/go-genproto",
+      "repolex:packageName": "google.golang.org/genproto"
+    }
+  ]
 }

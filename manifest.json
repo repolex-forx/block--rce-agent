@@ -52,6 +52,82 @@
       ],
       "ast": [
         "aggregate/ast/a26c1f2fbf9c5616a9169fda4ecb5dbf207d7eab/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/a26c1f2fbf9c5616a9169fda4ecb5dbf207d7eab.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "github.com/go-cmd/cmd",
+          "ecosystem": "GO",
+          "version": "1.4.3",
+          "githubOrg": "go-cmd",
+          "githubRepo": "cmd",
+          "githubCommit": "b47399882e557eb7f50f901ca373691491350929",
+          "githubTag": "v1.4.3",
+          "githubUrl": "https://github.com/go-cmd/cmd",
+          "source": "build_file:go.mod"
+        },
+        {
+          "packageName": "github.com/go-test/deep",
+          "ecosystem": "GO",
+          "version": "1.1.1",
+          "githubOrg": "go-test",
+          "githubRepo": "deep",
+          "githubCommit": "9e863ff5cf900f95c7e8a5e8248300939257744b",
+          "githubTag": "v1.1.1",
+          "githubUrl": "https://github.com/go-test/deep",
+          "source": "build_file:go.mod"
+        },
+        {
+          "packageName": "github.com/gofrs/uuid",
+          "ecosystem": "GO",
+          "version": "4.4.0+incompatible",
+          "githubOrg": "gofrs",
+          "githubRepo": "uuid",
+          "githubUrl": "https://github.com/gofrs/uuid",
+          "source": "build_file:go.mod"
+        },
+        {
+          "packageName": "github.com/golang/protobuf",
+          "ecosystem": "GO",
+          "version": "1.5.3",
+          "githubOrg": "golang",
+          "githubRepo": "protobuf",
+          "githubCommit": "5d5e8c018a13017f9d5b8bf4fad64aaa42a87308",
+          "githubTag": "v1.5.3",
+          "githubUrl": "https://github.com/golang/protobuf",
+          "source": "build_file:go.mod"
+        },
+        {
+          "packageName": "google.golang.org/grpc",
+          "ecosystem": "GO",
+          "version": "1.56.3",
+          "githubOrg": "grpc",
+          "githubRepo": "grpc-go",
+          "githubCommit": "1055b481ed2204a29d233286b9b50c42b63f8825",
+          "githubTag": "v1.56.3",
+          "githubUrl": "https://github.com/grpc/grpc-go",
+          "source": "build_file:go.mod"
+        },
+        {
+          "packageName": "github.com/kr/pretty",
+          "ecosystem": "GO",
+          "version": "0.2.0",
+          "githubOrg": "kr",
+          "githubRepo": "pretty",
+          "githubCommit": "4e0886370c3a67530192c6a238cff68f56c141b0",
+          "githubTag": "v0.2.0",
+          "githubUrl": "https://github.com/kr/pretty",
+          "source": "build_file:go.mod"
+        },
+        {
+          "packageName": "google.golang.org/genproto",
+          "ecosystem": "GO",
+          "version": "0.0.0-20230410155749-daa745c078e1",
+          "githubOrg": "googleapis",
+          "githubRepo": "go-genproto",
+          "githubUrl": "https://github.com/googleapis/go-genproto",
+          "source": "build_file:go.mod"
+        }
       ]
     }
   ],

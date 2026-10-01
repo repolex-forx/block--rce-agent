@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/rce-agent/commit/a26c1f2fbf9c5616a9169fda4ecb5dbf207d7eab",
       "git:hexsha": "a26c1f2fbf9c5616a9169fda4ecb5dbf207d7eab",
-      "repolex:parseStatus": "ast_complete",
+      "repolex:parseStatus": "enrich_complete",
       "git:tagName": "master"
     },
     {
