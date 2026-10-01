@@ -128,7 +128,9 @@
           "githubUrl": "https://github.com/googleapis/go-genproto",
           "source": "build_file:go.mod"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/a26c1f2fbf9c5616a9169fda4ecb5dbf207d7eab/chunk-001.nq.gz",
+      "dep": "dep/a26c1f2fbf9c5616a9169fda4ecb5dbf207d7eab.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",

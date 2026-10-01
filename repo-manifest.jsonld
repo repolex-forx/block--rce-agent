@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/block/rce-agent/commit/a26c1f2fbf9c5616a9169fda4ecb5dbf207d7eab",
       "git:hexsha": "a26c1f2fbf9c5616a9169fda4ecb5dbf207d7eab",
-      "repolex:parseStatus": "enrich_complete",
-      "git:tagName": "master"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "master",
+      "repolex:parsedAt": "2026-10-01T08:19:25.798800+00:00"
     },
     {
       "@id": "https://repolex.ai/r/block/rce-agent/commit/d911bebadb3ff77f02c70ae69ea2ea625928f392",
